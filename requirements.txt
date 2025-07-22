@@ -1,0 +1,12 @@
+# Core Data Processing
+polars>=0.20.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Kafka
+kafka-python>=2.0.2
+
+# Delta Lake
+deltalake>=0.15.0
+
+# 

@@ -1,0 +1,48 @@
+1. Trend Analysis
+Linear/Non-linear trends: Is temperature gradually increasing over time?
+Seasonal decomposition: Daily/weekly patterns in manufacturing
+Moving averages: Smooth out noise to see underlying patterns
+Detrending: Remove trends to focus on anomalies
+
+2. Stationarity Analysis
+ADF test: Is the time series stationary (mean/variance constant over time)?
+Differencing: Make non-stationary series stationary
+Unit root tests: Check for random walks vs mean-reverting behavior
+
+3. Seasonality & Cyclical Patterns
+Autocorrelation plots: Find repeating patterns
+Periodogram analysis: Identify dominant frequencies
+Seasonal decomposition: Separate trend, seasonal, and residual components
+Fourier transforms: Find periodic components
+
+4. Volatility Analysis
+Rolling standard deviation: How much does variability change over time?
+GARCH models: Model volatility clustering
+Regime changes: Detect when system behavior fundamentally changes
+
+5. Anomaly Detection Methods
+Statistical thresholds: Z-scores, IQR-based outliers
+Change point detection: When does the series behavior change?
+Isolation Forest: ML-based anomaly detection
+LSTM autoencoders: Deep learning for complex patterns
+
+
+6. Forecasting & Prediction
+ARIMA/SARIMA: Traditional time series forecasting
+Prophet: Facebook's forecasting tool
+Neural networks: LSTM, GRU for complex patterns
+Ensemble methods: Combine multiple approaches
+7. Cross-Correlation Analysis
+Lead-lag relationships: Does vibration predict temperature changes?
+Granger causality: Does one sensor "cause" changes in another?
+Cointegration: Long-term relationships between sensors
+8. Frequency Domain Analysis
+Power spectral density: Energy distribution across frequencies
+Wavelet analysis: Multi-scale time-frequency analysis
+Hilbert-Huang transform: Adaptive time-frequency analysis
+For Your Manufacturing Data Specifically:
+Predictive maintenance: When will a machine fail?
+Sensor drift detection: Gradual degradation over time
+Fault diagnosis: What type of failure is occurring?
+Performance monitoring: Is efficiency changing over time?
+Which of these interests you most? We could start with trend analysis and seasonality, then move to anomaly detection methods.
